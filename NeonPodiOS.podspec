@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '12.0'
-s.name = "NeonPhotoLibrary"
+s.name = "NeonPodiOS"
 s.summary = "Neon iOS lets a user select images."
 s.requires_arc = true
 s.version = "0.1.0"
