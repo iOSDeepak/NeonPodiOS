@@ -14,9 +14,7 @@ s.author = { "iOSDeepak" => "deepakglbitm07@gmail.com" }
 s.homepage = "https://github.com/iOSDeepak/NeonPodiOS"
 s.source = { :git => 'https://github.com/iOSDeepak/NeonPodiOS.git', 
              :tag => "#{s.version}" }
-s.source_files  = "NeoniOSDemo/*.{h,m}", 'NeoniOSDemo/*.swift'`
-
-
+s.source_files  = "NeoniOSDemo/*.{h,m}", "NeoniOSDemo/*.swift"
 s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "5.0"
 
