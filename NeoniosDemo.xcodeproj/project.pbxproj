@@ -277,7 +277,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B43CF8233C9331004A1069 /* TOCropViewControllerTransitioning.h in Headers */,
+				00B43C45233B6766004A1069 /* NeoniosDemo.h in Headers */,
 				00B43CF5233C9331004A1069 /* TOCroppedImageAttributes.h in Headers */,
 				00B43CEA233C9331004A1069 /* TOCropViewController.h in Headers */,
 				00B43CF2233C9331004A1069 /* UIImage+CropRotate.h in Headers */,
@@ -285,10 +285,10 @@
 				00B43CEC233C9331004A1069 /* CropViewController.h in Headers */,
 				00B43CF4233C9331004A1069 /* TOCropViewConstants.h in Headers */,
 				00B43CEB233C9331004A1069 /* TOCropView.h in Headers */,
-				00B43C45233B6766004A1069 /* NeoniosDemo.h in Headers */,
 				00B43CE8233C9331004A1069 /* TOCropOverlayView.h in Headers */,
 				00B43CF7233C9331004A1069 /* TOCropScrollView.h in Headers */,
 				00B43CE9233C9331004A1069 /* TOCropToolbar.h in Headers */,
+				00B43CF8233C9331004A1069 /* TOCropViewControllerTransitioning.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +574,7 @@
 		00B43C49233B6766004A1069 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -600,6 +601,7 @@
 		00B43C4A233B6766004A1069 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
