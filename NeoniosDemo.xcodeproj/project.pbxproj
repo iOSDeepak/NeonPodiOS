@@ -78,6 +78,7 @@
 		00B43CF7233C9331004A1069 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B43CE3233C9330004A1069 /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B43CF8233C9331004A1069 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B43CE4233C9330004A1069 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B43CFA233C9F61004A1069 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B43CF9233C9F60004A1069 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00B78BC5233DCEE000F1D040 /* NeoniosDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B78BC4233DCEE000F1D040 /* NeoniosDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,6 +155,7 @@
 		00B43CE3233C9330004A1069 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
 		00B43CE4233C9330004A1069 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
 		00B43CF9233C9F60004A1069 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		00B78BC4233DCEE000F1D040 /* NeoniosDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoniosDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 				00B43C4D233B754E004A1069 /* Resources */,
 				00B43C43233B6766004A1069 /* NeoniosDemo.h */,
 				00B43C44233B6766004A1069 /* Info.plist */,
+				00B78BC4233DCEE000F1D040 /* NeoniosDemo.swift */,
 			);
 			path = NeoniosDemo;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				00B43CBB233C923C004A1069 /* ICameraParam.swift in Sources */,
 				00B43CCA233C923C004A1069 /* NeonResponse.swift in Sources */,
 				00B43CF6233C9331004A1069 /* TOCropToolbar.m in Sources */,
+				00B78BC5233DCEE000F1D040 /* NeoniosDemo.swift in Sources */,
 				00B43CB8233C923C004A1069 /* OpalImagePickerController.swift in Sources */,
 				00B43CCD233C923C004A1069 /* CameraOnlyViewController.swift in Sources */,
 				00B43CEF233C9331004A1069 /* TOCropScrollView.m in Sources */,

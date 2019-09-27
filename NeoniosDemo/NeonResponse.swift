@@ -8,7 +8,7 @@
 
 import Foundation
 
-class NeonResponse{
+public class NeonResponse{
     var imageTagsCollection : [String : [FileInfo]]!
     var imageCollection : [FileInfo]!
     var responseCode : ResponseCode!

@@ -7,6 +7,6 @@
 //
 
 import Foundation
-protocol OnImageCollectionListener {
+public protocol OnImageCollectionListener {
     func imageCollection(neonResponse : NeonResponse) -> Void
 }

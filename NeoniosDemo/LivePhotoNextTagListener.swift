@@ -7,7 +7,7 @@
 //
 
 import Foundation
-protocol LivePhotoNextTagListener {
+public protocol LivePhotoNextTagListener {
     func updateExifInfo(fileInfo : FileInfo) -> Bool
     func onNextTag() -> Void
 }

@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol LivePhotosListener {
+public protocol LivePhotosListener {
     func LivePhotosListener(neonResponse : NeonResponse) -> Void
 }

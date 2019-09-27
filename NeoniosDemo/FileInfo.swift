@@ -7,15 +7,15 @@
 //
 
 import Foundation
-enum FILE_TYPE : String, Codable{
+public enum FILE_TYPE : String, Codable{
     case IMAGE
     case FOLDER
 }
-enum SOURCE : String, Codable{
+public enum SOURCE : String, Codable{
     case PHONE_CAMERA
     case PHONE_GALLERY
 }
-class FileInfo : Serializable {
+public class FileInfo : Serializable {
 
     private var filePath : String?
     private var type : FILE_TYPE?

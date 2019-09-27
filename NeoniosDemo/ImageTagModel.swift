@@ -9,11 +9,11 @@
 import Foundation
 import CoreLocation
 
-struct Coordinate: Codable {
+public struct Coordinate: Codable {
     let latitude, longitude: String
 }
 
-class ImageTagModel : Codable {
+public class ImageTagModel : Codable {
     private var tagId : String?
     private var tagName : String?
     private var mandatory : Bool?
@@ -52,7 +52,7 @@ class ImageTagModel : Codable {
         case isSelected = "isSelected"
          case location = "location"
     }
-    required init(from decoder: Decoder) throws {
+    required public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         if let tagId = try? container.decode(String.self, forKey: .tagId) {
             self.tagId = tagId
@@ -73,7 +73,7 @@ class ImageTagModel : Codable {
             self.location = location
         }
     }
-    func encode(to encoder: Encoder) throws {
+    public func encode(to encoder: Encoder) throws {
     }
     public func getTagName() -> String {
         return self.tagName ?? "NA"
